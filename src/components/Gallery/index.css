@@ -1,0 +1,34 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.unorderlist {
+  list-style-type: none;
+  display: flex;
+  padding-left: 60px;
+}
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 30px;
+}
+.contentcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px 60px;
+}
+button {
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+}
+.mainimg {
+  height: 500px;
+  width: 90vw;
+}
